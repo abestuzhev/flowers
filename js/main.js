@@ -2,12 +2,12 @@ $(document).ready(function() {
 
     /*slider*/
     $('.home-slider').slick({
-        autoplay: false,
+        autoplay: true,
         autoplaySpeed: 5000,
         dots: true,
         dotsClass: "my-dots",
         arrows: true,
-        infinite: false,
+        infinite: true,
         speed: 500,
         adaptiveHeight: true,
         cssEase: 'linear',
