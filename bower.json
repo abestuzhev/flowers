@@ -1,0 +1,22 @@
+{
+  "name": "smk",
+  "description": "",
+  "main": "gulpfile.js",
+  "authors": [
+    "Aleksey <aleksey.bestuzhev@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "normalize-css": "normalize.css#^5.0.0",
+    "slick-carousel": "^1.6.0"
+  }
+}

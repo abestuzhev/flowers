@@ -1,0 +1,82 @@
+.footer {
+  position: relative;
+  margin-top: -317px;
+  width: 100%;
+  background: url($img-dir + 'footer-bg.jpg') 0 0 no-repeat;
+  background-size: cover;
+  padding-top: 2.6em;
+
+  &_logo {
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  &-contact {
+    margin-left:auto;
+    margin-right:auto;
+    color: #FFF;
+    text-align: center;
+
+    &_address {
+      font-size: 18px;
+      font-weight: 300;
+      margin-bottom: 10px;
+    }
+
+    &_number {
+      font-size: 14px;
+      font-weight: 300;
+    }
+  }
+
+  &-line {
+    width: 100%;
+    background-color: #3D3D3D;
+    background-color: rgba(61, 61, 61, 0.5);
+  }
+}
+
+.footer-menu {
+  text-align: justify;
+  font-family: "Roboto";
+
+  &::after {
+    content: '';
+    width: 100%;
+    display: inline-block;
+    font-size: 0;
+  }
+
+  &_item {
+    display: inline-block;
+  }
+
+  &_link {
+    display: inline-block;
+    padding: 0.375em 0.1em;
+    color: #E6E6E6;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+
+    &:hover {
+      color: #fbbb00;
+      text-decoration: underline;
+    }
+  }
+
+  &_mobile {
+    display: none;
+    line-height: 3.125em;
+    color: #fff;
+    font-weight: 700;
+    text-align: center;
+    @extend %transition;
+
+    &:hover {
+      @extend %transition;
+      color: #fbbb00;
+    }
+  }
+}

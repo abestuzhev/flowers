@@ -1,0 +1,126 @@
+.l-header {
+  position: absolute;
+  z-index: 99;
+  top: 0;
+  width: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.header {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    background-color: #ebf5f7;
+    // box-shadow: 0 7px 15px rgba(0, 0, 0, 0.08);
+    padding: 0 10px;
+    padding-bottom: 5px;
+
+  @include clear;
+
+  &_logo {
+    padding: 0 !important;
+  }
+
+  &-contact {
+    font-family: "Roboto";
+    text-align: right;
+    margin-top: .6em;
+
+    &_item {
+      position: relative;
+      color: #252525;
+      font-size: .75em;
+      font-weight: 400;
+
+      &::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 14%;
+        border-bottom: 1px dotted #000;
+        width: 86%;
+      }
+
+      &:hover::after {
+        border: none;
+      }
+    }
+  }
+
+  &-icon {
+    display: inline-block;
+    margin-right: 5px;
+    margin-top: 4px;
+  }
+
+  &-menu {
+    text-align: justify;
+
+    &::after {
+      content: '';
+      width: 100%;
+      display: inline-block;
+      font-size: 0;
+    }
+
+    &_item {
+      display: inline-block;
+    }
+
+    &_link {
+      color: #1E1E1E;
+      font-family: "Roboto";
+      font-size: .875em;
+      font-weight: 400;
+      text-transform: uppercase;
+
+      &:hover {
+        color: #FBBB00;
+      }
+    }
+
+
+    &_mobile {
+      position: relative;
+      vertical-align: top;
+      display: none;
+      padding: .5em 1.1em;
+      background-color: #fbbb00;
+      color: #000;
+      font-weight: bold;
+      border-radius: 2px;
+      min-height: 2.125em;
+      @extend %transition;
+
+      &:hover {
+        @extend %transition;
+        background-color: rgba(255, 228, 0, 1);
+      }
+    }
+
+    &_mobile--phone::after {
+      content: '';
+      position: absolute;
+      width: 10px;
+      height: 10px;
+      top: 50%;
+      left: 50%;
+      margin-left: -5px;
+      margin-top: -5px;
+      background: url($img-dir + 'icon-phone-white.png') 0 0 no-repeat;
+    }
+
+    &_mobile--mail::after {
+      content: '';
+      position: absolute;
+      width: 12px;
+      height: 8px;
+      top: 50%;
+      left: 50%;
+      margin-left: -6px;
+      margin-top: -4px;
+      background: url($img-dir + 'icon-mail-white.png') 0 0 no-repeat;
+    }
+  }
+}
