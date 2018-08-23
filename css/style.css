@@ -2697,6 +2697,9 @@ html {
   .home-slider_title p {
     font-size: 26px;
   } 
+  .home-slider .slick-next {
+    right: 282px;
+  }
 }
 
 @media (max-width: 992px) {
@@ -2789,7 +2792,7 @@ html {
     right: -2px;
   }
   .home-slider .slick-prev, .home-slider .slick-next {
-    top: 30%;
+    top: 35%;
   }
   .social-network {
     display: block;
