@@ -1621,6 +1621,16 @@ html {
   width: 100%;
   background: url("../img/footer-bg.jpg") 0 0 no-repeat;
   background-size: cover; }
+.footer-bg-1 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.footer-bg-2 {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
   .footer_logo {
     display: block;
     text-align: center;
@@ -2798,6 +2808,9 @@ html {
     display: block;
     width: 13%;
     float: left;
+  }
+  .footer-center_block {
+    padding: 15px 0px 0px 0px;
   }
   }
 
