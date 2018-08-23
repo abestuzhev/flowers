@@ -11,7 +11,30 @@ $(document).ready(function() {
         speed: 500,
         adaptiveHeight: true,
         cssEase: 'linear',
-        fade: true
+        fade: true,
+        responsive: [
+            {
+                breakpoint: 560,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    arrows: true,
+                    dots: false,
+                    fade: false
+                }
+            },
+            {
+                breakpoint: 770,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    arrows: true,
+                    dots: false,
+                    fade: false
+                }
+            }
+        ]
+
     });
 
     $('.objects-slider').slick({
