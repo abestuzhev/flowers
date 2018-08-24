@@ -961,7 +961,7 @@ html {
     display: inline-block; }
 
 .home-slider_title p {
-  font-size: 36px;
+  font-size: 32px;
   font-weight: 300;
   color: #094665; }
 .home-slider_title p:first-child {
@@ -2760,7 +2760,7 @@ ul.pagination .additional span:hover {
 
 @media screen and (min-width: 992px) and (max-width: 1200px) {
   .home-slider_title p {
-    font-size: 26px;
+    font-size: 24px;
   } 
   .home-slider .slick-next {
     right: 282px;
