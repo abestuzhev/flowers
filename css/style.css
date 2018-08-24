@@ -178,9 +178,8 @@ input[type="radio"] {
 
 input[type="checkbox"] + label {
   color: #2B2A29;
-  font-family: "Roboto";
   font-size: 14px;
-  font-weight: 400;
+  font-weight: 300;
   cursor: pointer; }
 
 input[type="checkbox"] + label::before {
@@ -196,7 +195,7 @@ input[type="checkbox"] + label::before {
 
 input[type="checkbox"]:checked + label::before {
   background: url("../img/icon-check.png") 50% 50% no-repeat;
-  background-color: #fbbb00; }
+  background-color: #964383; }
 
 .c-card-object {
   display: inline-block;
