@@ -3,12 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>СМК</title>
+  <title>Акции Flowers</title>
   <link rel="shortcut icon" href="favicon.png">
-  <!--[if lt IE 10]><script src="js/IE9.js"></script><![endif]-->
-
-  <link href="//fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet">
-  <link href="//fonts.googleapis.com/css?family=Roboto+Condensed:400,700&amp;subset=cyrillic,cyrillic-ext" rel="stylesheet">
   <link rel="stylesheet" href="bower_components/normalize-css/normalize.css">
   <link rel="stylesheet" type="text/css" href="bower_components/slick-carousel/slick/slick.css"/>
   <link rel="stylesheet" type="text/css" href="bower_components/slick-carousel/slick/slick-theme.css"/>
@@ -19,103 +15,212 @@
 
 <div class="smk-layout">
   <div class="city-layout"></div>
-
-  <div class="container">
-
+  <div class="l-header">
     <header class="header">
-      <a href="/" class="header_logo col-lg-2 col-md-2 col-sm-3 col-xs-4"><img src="img/logo-smk.svg" alt=""></a>
-      <div class="header-contact mb-1 col-lg-10 col-md-10 col-sm-9 col-xs-8">
+      <a href="/" class="header_logo col-lg-2 col-md-2 col-sm-3 col-xs-4">
+        <!-- <img src="img/logo-smk.svg" alt=""> -->
+        <img src="img/logo-img.png" alt="">
+      </a>
+      <div class="header-contact mb-1 col-lg-10 col-md-10 col-sm-9 col-xs-8 fat-right-0">
         <a href="#" class="header-menu_mobile header-menu_mobile--menu">Меню</a>
         <a href="#" class="header-menu_mobile header-menu_mobile--phone"></a>
         <a href="#" class="header-menu_mobile header-menu_mobile--mail"></a>
-        <a href="#" class="header-contact_item mr-6"><i class="header-icon icon-phone-yellow"></i>Заказать звонок</a>
-        <a href="#" class="header-contact_item"><i class="header-icon icon-mail-yellow"></i>Написать письмо</a>
+        <a href="tel:+78126706203" class="header-contact_item tel mr-4">+7 (812) 670-62-03</a>
+        <a href="#" class="header-contact_item popup_btn-call mr-4">Заказать звонок</a>
+        <a href="#" class="header-contact_item popup_btn-mail mr-2">Написать письмо</a>
+        <a href="#" class="header-contact_item social-network mr-2"><img src="./img/fb-icon.png"></a>
+        <a href="#" class="header-contact_item social-network mr-2"><img src="./img/ok-ru.png"></a>
+        <a href="#" class="header-contact_item social-network"><img src="./img/vk-icon.png"></a>
       </div>
-      <ul class="header-menu mt-4 col-lg-10 col-md-10 col-sm-12 col-xs-12">
-        <li class="header-menu_item"><a href="#" class="header-menu_link">Главная</a></li>
-        <li class="header-menu_item"><a href="#" class="header-menu_link">Акции</a></li>
-        <li class="header-menu_item"><a href="#" class="header-menu_link">Поиск недвижимости</a></li>
-        <li class="header-menu_item"><a href="#" class="header-menu_link">Наши объекты</a></li>
-        <li class="header-menu_item"><a href="#" class="header-menu_link">О компании</a></li>
+      <ul class="header-menu mt-4 col-lg-9 col-md-10 col-sm-12 col-xs-12 float-right fat-right-0">
+        <li class="header-menu_item"><a href="#" class="header-menu_link">О комплексе</a></li>
+        <li class="header-menu_item"><a href="#" class="header-menu_link">Квартиры</a></li>
+        <li class="header-menu_item"><a href="#" class="header-menu_link">Поиск по квартирам</a></li>
+        <li class="header-menu_item"><a href="#" class="header-menu_link">Варианты оплаты</a></li>
+        <li class="header-menu_item"><a href="#" class="header-menu_link">Отделка</a></li>
+        <li class="header-menu_item"><a href="#" class="header-menu_link active">Акции</a></li>
         <li class="header-menu_item"><a href="#" class="header-menu_link">Контакты</a></li>
         <a href="#" class="menu_mobile-back"><img src="img/icon-arrow-menu.png" alt=""></a>
       </ul>
     </header>
   </div>
 
-  <ul class="с-breadcrumbs">
-    <div class="container">
-      <li class="с-breadcrumbs_item"><a href="#" class="с-breadcrumbs_link">Главная</a></li>
-      <li class="с-breadcrumbs_item"><a href="#" class="с-breadcrumbs_link">Акции</a></li>
-      <li class="с-breadcrumbs_item"><a href="#" class="с-breadcrumbs_link">Заголовок акции</a></li>
-    </div>
-  </ul><!--end с-breadcrumbs-->
-
   <div class="container">
     <div class="c-title"><h2 class="c-title_h2">Акции</h2></div><!--end c-title-->
 
-    <div class="c-card-stock ptb-4 plr-5 mb-4">
-      <div class="c-card-stock_img col-lg-3 col-md-3 col-sm-4 col-xs-5"></div>
-      <div class="c-card-stock_body col-lg-9 col-md-9 col-sm-8 col-xs-7">
-        <div class="c-card-stock_title mb-1">Заголовок акции</div>
-        <div class="c-card-stock_date mb-3">С какого по какое. Если нет временного промежутка, писать - постоянная</div>
-        <div class="c-card-stock_preview mb-2">
-          <p>Краткое описание акции.</p>
-          <p>Максимум 2 строки, потом обрезается</p>
-        </div>
-      </div><!--end c-card-stock_body-->
-      <div class="c-card-stock_more mt-6">
-        <div class="c-card-stock_more-title mb-2">Подробнее об акции :</div>
-        <div class="c-card-stock_more-text ml-2">
-          <p>
-            Перед началом любой маркетинговой акции, необходимо понять, а его мы хотим добиться в конечном итоге.
-            Попутно рассматривая, как мы этого хотим добиться и, что самое важное когда. Чуть выше описывал, что задача
-            освободить склад не совсем симпатичным товаром. Уже куплен, вернуть нельзя, продаваться не желает, как ни выкладывай.
-            Слив остатков цель хорошая, но не совсем интересная. Даже если с наличием этого товара смирились и готовы его сбагрить
-            за бесценок, хоть ниже закупки, все равно не повод упускать шанс поднять продажи.
-          </p>
-          <p>
-            Кстати пока пишу эту статью, пришла идея отдать некоторую часть этого товара на нужды, бесплатно.
-            Например, отобрать подушки в автомобиль, игрушки и передать в детский дом. А почему нет? Сделать из этого очередное
-            громкое мероприятие. Маркетинговые идеи как всегда возникают нежданно.
-          </p>
-        </div>
-      </div>
+    <div class="stock-more c-card-stock ptb-4 plr-5 mb-4">
+      <img class="c-card-stock_img" src="./img/stock-1.jpg">
+      <p class="c-card-stock_title mb-1">Перфоманс акции (стальные нервы)</p>
+      <p class="c-card-stock_date mb-3">срок действия: постоянная</p>
+      <p>А теперь, когда слово в путь-дорогу выдано, мы можем стартовать. Начнем с тех, у кого крепкие нервы и кто не боится рисковать. Это самые интересные, вызывающие внимание и привлекающие клиентов, необычные рекламные акции. В данном разделе я скорее опишу Вам подход (стратегию) с примерами, так как не всё так просто. А вот далее Вы уже увидите готовые примеры.</p>
+      <p>Одна из самых успешных, запоминающихся и увеличивающих продажи, была рекламная акция всеми известного магазина “Евросеть” — приди голый и получи сотовый телефон бесплатно. Эффект был рассчитан прежде всего на эпатаж. С тех пор подобную акцию, в той или иной манере, пытаются повторить все владельцы магазинов, у которых хватает духу раскрутить свой магазин за счет человеческой жадности.</p>
+      <p>Недавний пример — спортивный магазин в Германии, который устроил подобную акцию в день своего открытия. Можно было прийти и одеться с ног до головы во что захочешь за отведённое время. Совершенно бесплатно. Правда, было небольшое условие — прийти Вы должны были совершенно голым. Причем, бизнес не обязательно должен быть большим и известным, чтобы провести в  магазине такую акцию. К примеру, в Иркутске, на открытии небольшого магазина молодежной одежды, проводилась акция — порви джинсы/брюки, которые на тебе есть сейчас и выбери новые совершенно бесплатно. В одном из магазинов ИКЕА почти месяц жила семейная пара. Они там спали, готовили, ели и даже мылись. Чтобы посмотреть на этих незаурядных людей (читать, чудаков) приезжало очень много народа. Как думаете, это повлияло на увеличение продаж в этом магазине? Правильно думаете, повлияло  😉 </p>
+
+      
     </div><!--end c-card-stock-->
 
     <div class="application ptb-5 plr-6 mb-6 pb-8">
-      <div class="application_item col-lg-3 col-md-3 col-sm-3 col-xs-2"><input type="text" placeholder="ФИО:"></div>
-      <div class="application_item col-lg-3 col-md-3 col-sm-3 col-xs-2"><input type="text" placeholder="Тел: +7(___)___-__-__" class="phone-mask"></div>
-      <div class="application_item col-lg-6 col-md-6 col-sm-6 col-xs-8"><input type="text" placeholder="Сообщение:"></div>
-      <div class="l-button"><a href="#" class="c-button">Оставить заявку</a></div>
+      <div class="mb-4">
+        <p class="c-card-stock_title">Оставить заявку</p>
+      </div>
+      <div class="l-row mb-4">
+        <div class="application_item col-lg-3 col-md-3 col-sm-3 col-xs-2"><input type="text" placeholder="ФИО:"></div>
+        <div class="application_item col-lg-3 col-md-3 col-sm-3 col-xs-2"><input type="text" placeholder="Тел: +7(___)___-__-__" class="phone-mask"></div>
+        <div class="application_item col-lg-5 col-md-4 col-sm-4 col-xs-6"><input type="text" placeholder="Сообщение:"></div>
+        <div class="application_item col-lg-1 col-md-2 col-sm-2 col-xs-2"><a href="#" class="c-button">Отправить</a></div>
+      </div>
+      <div class="form-group">
+        <div class="checkbox">
+            <input type="checkbox" id="pismo_agree" name="pismo_agree" required="">
+            <label class="label label_required" for="pismo_agree">Даю согласие на обработку своих персональных данных и соглашаюсь с <a href="/soglasiyepnd/" class="policy-link" target="_blank">политикой обработки персональных данных</a></label>
+        </div>
+      </div>
     </div>
 
-    <div class="l-btn-back"><a href="#" class="c-btn-back mb-4">Назад</a></div>
+    <div class="l-btn-back"><a href="#" class="c-btn-back mb-4"><span>&lt;</span> Вернуться к списку акций</a></div>
 
   </div><!-- end container -->
 </div><!-- end smk-layout -->
 <div class="footer">
-  <a href="/" class="footer_logo"> <img src="img/footer-logo.png" alt=""></a>
-  <div class="footer-contact mb-11">
-    <div class="footer-contact_address">г. Северодвинск, ул. Индустриальная, 18.</div>
-    <div class="footer-contact_number">+7 (8184) 56-55-28 ; smk@atnet.ru</div>
-  </div>
-
-  <div class="footer-line">
-    <div class="container">
-      <a href="#" class="footer-menu_mobile">Меню</a>
-      <ul class="footer-menu">
-        <li class="footer-menu_item"><a href="#" class="footer-menu_link">Главная</a></li>
-        <li class="footer-menu_item"><a href="#" class="footer-menu_link">Акции</a></li>
-        <li class="footer-menu_item"><a href="#" class="footer-menu_link">Поиск недвижимости</a></li>
-        <li class="footer-menu_item"><a href="#" class="footer-menu_link">Наши объекты</a></li>
-        <li class="footer-menu_item"><a href="#" class="footer-menu_link">О компании</a></li>
-        <li class="footer-menu_item"><a href="#" class="footer-menu_link">Благотворительность</a></li>
-        <li class="footer-menu_item"><a href="#" class="footer-menu_link">Контакты</a></li>
-      </ul>
+  <div class="footer-block">
+    <div class="footer-center_block">
+      <div class="container">
+        <div class="l-row">
+          <div class="width-10p float-left">
+            <a href="/" class="footer_logo"> <img src="img/footer-logo.png" alt=""></a>
+          </div>
+          <div class="width-20p float-left">
+            <a class="footer-main_link" href="#">О комплексе</a>
+            <div class="footer-main_link__text">
+              <a href="#">- инфраструктура</a>
+              <a href="#">- технологии строительства</a>
+              <a href="#">- от покупки до проживания</a>
+              <a href="#">- документация</a>
+              <a href="#">- коммерческая недвижимость</a>
+              <a href="#">- генплан</a>
+              <a href="#">- новости</a>
+            </div>
+          </div>
+          <div class="width-20p float-left">
+            <a class="footer-main_link" href="#">Варианты оплаты</a>
+            <div class="footer-main_link__text">
+              <a href="#">- ипотека</a>
+              <a href="#">- военная ипотека</a>
+              <a href="#">- рассрочка</a>
+              <a href="#">- материнский капитал</a>
+              <a href="#">- субсидии и сертификаты</a>
+            </div>
+          </div>
+          <div class="width-20p float-left">
+            <a class="footer-main_link" href="#">Квартиры</a>
+            <a class="footer-main_link" href="#">Поиск по квартирам</a>
+            <a class="footer-main_link" href="#">Отделка</a>
+            <a class="footer-main_link" href="#">Акции</a>
+            <a class="footer-main_link" href="#">Контакты</a>
+          </div>
+          <div class="width-30p float-left text-right">
+            <p class="footer-main_link text-right">---</p>
+            <div class="mb-4">
+              <a href="tel:+78126706203" class="footer-contact_item tel">+7 (812) 670-62-03</a>
+            </div>
+            <div class="mb-4">
+              <a href="#" class="footer-contact_item popup_btn-call">Заказать звонок</a>
+            </div>
+            <div class="mb-4">
+              <a href="#" class="footer-contact_item popup_btn-mail">Написать письмо</a>
+            </div>
+            <div>
+              <a href="#" class="header-contact_item social-network mr-2"><img src="./img/fb-icon-footer.png"></a>
+              <a href="#" class="header-contact_item social-network mr-2"><img src="./img/ok-ru-footer.png"></a>
+              <a href="#" class="header-contact_item social-network"><img src="./img/vk-icon-footer.png"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom_block">
+      <div class="container">
+        <p class="text-right">© 2014-2018, ООО "Европейская слобода" ;  <a href="#">разработка сайта "Leeft"</a></p>
+      </div>
     </div>
   </div>
 </div><!-- end footer -->
+
+
+<!--<a href="#" class="cd-top">
+  <img class="cd-top_icon" src="img/icon-arrow-menu--up.png" alt="">
+</a>-->
+
+<div class="popup popup_call">
+  <div class="popup_title mb-6">Заказать звонок</div>
+  <form action="#" class="popup-form">
+    <div class="popup-form_item"><input type="text" placeholder="ФИО"></div>
+    <div class="popup-form_item"><input type="text" placeholder="Тел: +7(___)___-__-__" class="phone-mask"></div>
+    <div class="popup-form_item">
+      <textarea name="" id="popup_call-text" rows="10" placeholder="Здесь вы можете указать желаемое время звонка или задать вопрос."></textarea>
+    </div>
+    <div class="form-group">
+        <div class="checkbox">
+            <input type="checkbox" id="pismo_agree" name="pismo_agree" required="">
+            <label class="label label_required" for="pismo_agree">Даю согласие на обработку своих персональных данных и соглашаюсь с <a href="/soglasiyepnd/" class="policy-link" target="_blank">политикой обработки персональных данных</a></label>
+        </div>
+    </div>
+    <div class="l-button">
+      <a href="#" class="popup_back"><img src="img/icon-arrow-menu.png" alt=""></a>
+      <button class="c-button mb-1">Отправить</button>
+    </div>
+  </form>
+</div>
+<div class="popup popup_mail">
+  <div class="popup_title mb-6">Написать письмо</div>
+  <form action="#" class="popup-form">
+    <div class="popup-form_item"><input type="text" placeholder="ФИО"></div>
+    <div class="popup-form_item"><input type="text" placeholder="Тел: +7(___)___-__-__" class="phone-mask"></div>
+    <div class="popup-form_item"><input type="text" placeholder="Email:"></div>
+    <div class="popup-form_item">
+      <textarea name="" id="popup_mail-text" rows="7" placeholder="Здесь вы можете указать желаемое время звонка или задать вопрос."></textarea>
+    </div>
+    <div class="form-group">
+        <div class="checkbox">
+            <input type="checkbox" id="pismo_agree" name="pismo_agree" required="">
+            <label class="label label_required" for="pismo_agree">Даю согласие на обработку своих персональных данных и соглашаюсь с <a href="/soglasiyepnd/" class="policy-link" target="_blank">политикой обработки персональных данных</a></label>
+        </div>
+    </div>
+    <div class="l-button">
+      <a href="#" class="popup_back"><img src="img/icon-arrow-menu.png" alt=""></a>
+      <button class="c-button mb-1">Отправить</button>
+    </div>
+  </form>
+</div>
+<div class="popup popup_request">
+  <div class="popup_title mb-6">Написать заявку</div>
+  <form action="#" class="popup-form">
+    <div class="popup-form_item"><input type="text" placeholder="ФИО"></div>
+    <div class="popup-form_item"><input type="text" placeholder="Тел: +7(___)___-__-__" class="phone-mask"></div>
+    <div class="popup-form_item"><input type="text" placeholder="Email:"></div>
+    <div class="popup-form_item">
+      <textarea name="" id="popup_request-text" rows="7" placeholder="Здесь вы можете указать желаемое время звонка или задать вопрос."></textarea>
+    </div>
+    <div class="form-group">
+        <div class="checkbox">
+            <input type="checkbox" id="pismo_agree" name="pismo_agree" required="">
+            <label class="label label_required" for="pismo_agree">Даю согласие на обработку своих персональных данных и соглашаюсь с <a href="/soglasiyepnd/" class="policy-link" target="_blank">политикой обработки персональных данных</a></label>
+        </div>
+    </div>
+    <div class="l-button">
+      <a href="#" class="popup_back"><img src="img/icon-arrow-menu.png" alt=""></a>
+      <button class="c-button mb-1">Отправить</button>
+    </div>
+  </form>
+</div>
+
+<!--подтвердение отправки-->
+<div class="popup popup-sent">
+  <div class="popup-sent_title mb-6">Ваша заявка отправлена</div>
+  <a href="#" class="popup-sent_close mb-6"><img src="img/popup-sent_close.png" alt=""></a>
+</div>
+<!--задний фон модального окна-->
+<div class="popup_bg"></div>
 
 <script src="bower_components/jquery/dist/jquery.min.js"></script>
 <script type="text/javascript" src="bower_components/slick-carousel/slick/slick.min.js"></script>
@@ -126,6 +231,7 @@
 <script src="bower_components/jquery-mask-plugin/dist/jquery.mask.js"></script>
 <script src="js/jquery.sumoselect.js"></script>
 <script src="js/main.js"></script>
+
 
 </body>
 </html>

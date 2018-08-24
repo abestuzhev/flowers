@@ -3,91 +3,38 @@
 
 @font-face {
   font-family: 'Neo Sans Pro';
-  src: url('./fonts/NeoSansPro-Bold.eot');
-  src: local('Neo Sans Pro Bold'), local('NeoSansPro-Bold'),
-    url('./fonts/NeoSansPro-Bold.eot?#iefix') format('embedded-opentype'),
-    url('./fonts/NeoSansPro-Bold.woff') format('woff'),
-    url('./fonts/NeoSansPro-Bold.ttf') format('truetype');
+  src: url('../fonts/NeoSansPro-Bold.eot');
+  src: url(../fonts/NeoSansPro-Bold.eot?#iefix) format("embedded-opentype"), url(../fonts/NeoSansPro-Bold.woff) format("woff"), url(../fonts/NeoSansPro-Bold.ttf) format("truetype");
   font-weight: bold;
-  font-style: normal;
-}
+  font-style: normal; }
 
 @font-face {
   font-family: 'Neo Sans Pro';
-  src: url('./fonts/NeoSansPro-Medium.eot');
-  src: local('Neo Sans Pro Medium'), local('NeoSansPro-Medium'),
-    url('./fonts/NeoSansPro-Medium.eot?#iefix') format('embedded-opentype'),
-    url('./fonts/NeoSansPro-Medium.woff') format('woff'),
-    url('./fonts/NeoSansPro-Medium.ttf') format('truetype');
+  src: url('../fonts/NeoSansPro-Medium.eot');
+  src: url(../fonts/NeoSansPro-Medium.eot?#iefix) format("embedded-opentype"), url(../fonts/NeoSansPro-Medium.woff) format("woff"), url(../fonts/NeoSansPro-Medium.ttf) format("truetype");
   font-weight: 500;
-  font-style: normal;
-}
+  font-style: normal; }
 
 @font-face {
   font-family: 'Neo Sans Pro';
-  src: url('./fonts/NeoSansPro-LightItalic.eot');
-  src: local('Neo Sans Pro Light Italic'), local('NeoSansPro-LightItalic'),
-    url('./fonts/NeoSansPro-LightItalic.eot?#iefix') format('embedded-opentype'),
-    url('./fonts/NeoSansPro-LightItalic.woff') format('woff'),
-    url('./fonts/NeoSansPro-LightItalic.ttf') format('truetype');
+  src: url('../fonts/NeoSansPro-Regular.eot');
+  src: url(../fonts/NeoSansPro-Regular.eot?#iefix) format("embedded-opentype"), url(../fonts/NeoSansPro-Regular.woff) format("woff"), url(../fonts/NeoSansPro-Regular.ttf) format("truetype");
   font-weight: 300;
-  font-style: italic;
-}
+  font-style: normal; }
 
 @font-face {
   font-family: 'Neo Sans Pro';
-  src: url('./fonts/NeoSansPro-Regular.eot');
-  src: local('Neo Sans Pro'), local('NeoSansPro-Regular'),
-    url('./fonts/NeoSansPro-Regular.eot?#iefix') format('embedded-opentype'),
-    url('./fonts/NeoSansPro-Regular.woff') format('woff'),
-    url('./fonts/NeoSansPro-Regular.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Neo Sans Pro Ultra';
-  src: url('./fonts/NeoSansPro-Ultra.eot');
-  src: local('Neo Sans Pro Ultra'), local('NeoSansPro-Ultra'),
-    url('./fonts/NeoSansPro-Ultra.eot?#iefix') format('embedded-opentype'),
-    url('./fonts/NeoSansPro-Ultra.woff') format('woff'),
-    url('./fonts/NeoSansPro-Ultra.ttf') format('truetype');
-  font-weight: 900;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Neo Sans Pro';
-  src: url('./fonts/NeoSansPro-BoldItalic.eot');
-  src: local('Neo Sans Pro Bold Italic'), local('NeoSansPro-BoldItalic'),
-    url('./fonts/NeoSansPro-BoldItalic.eot?#iefix') format('embedded-opentype'),
-    url('./fonts/NeoSansPro-BoldItalic.woff') format('woff'),
-    url('./fonts/NeoSansPro-BoldItalic.ttf') format('truetype');
-  font-weight: bold;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: 'Neo Sans Pro';
-  src: url('./fonts/NeoSansPro-Light.eot');
-  src: local('Neo Sans Pro Light'), local('NeoSansPro-Light'),
-    url('./fonts/NeoSansPro-Light.eot?#iefix') format('embedded-opentype'),
-    url('./fonts/NeoSansPro-Light.woff') format('woff'),
-    url('./fonts/NeoSansPro-Light.ttf') format('truetype');
+  src: url('../fonts/NeoSansPro-LightItalic.eot');
+  src: url(../fonts/NeoSansPro-LightItalic.eot?#iefix) format("embedded-opentype"), url(../fonts/NeoSansPro-LightItalic.woff) format("woff"), url(../fonts/NeoSansPro-LightItalic.ttf) format("truetype");
   font-weight: 300;
-  font-style: normal;
-}
+  font-style: italic; }  
 
 @font-face {
   font-family: 'Neo Sans Pro';
-  src: url('./fonts/NeoSansPro-Italic.eot');
-  src: local('Neo Sans Pro Italic'), local('NeoSansPro-Italic'),
-    url('./fonts/NeoSansPro-Italic.eot?#iefix') format('embedded-opentype'),
-    url('./fonts/NeoSansPro-Italic.woff') format('woff'),
-    url('./fonts/NeoSansPro-Italic.ttf') format('truetype');
+  src: url('../fonts/NeoSansPro-Italic.eot');
+  src: url(../fonts/NeoSansPro-Italic.eot?#iefix) format("embedded-opentype"), url(../fonts/NeoSansPro-Italic.woff) format("woff"), url(../fonts/NeoSansPro-Italic.ttf) format("truetype");
   font-weight: normal;
-  font-style: italic;
-}
+  font-style: italic; }  
 
 
 html {
@@ -96,7 +43,7 @@ html {
 
 body {
   height: 100%;
-  background-color: #ebf5f7;
+  background-color: #f4fbff;
   padding: 0;
   margin: 0; }
 
@@ -623,20 +570,21 @@ input[type="checkbox"]:checked + label::before {
     color: #fff; }
 
 .c-card-stock {
-  background-color: #FFF;
-  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.08);
-          box-shadow: 0 0 5px rgba(0, 0, 0, 0.08); }
+  background-color: #e4f5ff;
+}
+.c-card-stock:hover {
+  background: #fff;
+}
   .c-card-stock::after {
     content: '';
     display: block;
     clear: both; }
   .c-card-stock_img {
     width: 220px;
-    height: 139px;
+    height: 210px;
     overflow: hidden;
     position: relative;
-    float: left;
-    background-color: #343434; }
+    float: left; }
     .c-card-stock_img::after {
       content: '';
       display: block;
@@ -650,6 +598,11 @@ input[type="checkbox"]:checked + label::before {
               transform: translate(-50%, -50%) scale(1.1);
       width: 100%;
       height: auto; }
+  .stock-more .c-card-stock_img {
+    width: 360px;
+    height: 260px;
+    margin-right: 15px;
+  }
   .c-card-stock_body {
     float: left; }
     .c-card-stock_body::after {
@@ -657,25 +610,43 @@ input[type="checkbox"]:checked + label::before {
       display: block;
       clear: both; }
   .c-card-stock_title {
-    color: #2B2A29;
-    font-family: "Stem";
-    font-size: 1.5em;
-    font-weight: 700;
-    text-transform: uppercase; }
+    color: #094665;
+    font-size: 18px;
+    font-weight: 500; }
+  .c-card-stock:hover .c-card-stock_title,
+  .c-card-stock:hover .c-card-stock_date {
+    color: #964383;
+  }
   .c-card-stock_date {
-    color: #656565;
-    font-size: .875em;
+    color: #2c3337;
+    font-size: 16px;
     font-weight: 300; }
   .c-card-stock_preview {
-    height: 2.6em;
+    
     overflow: hidden; }
     .c-card-stock_preview p {
-      color: #656565;
-      font-size: 1.06em;
+      color: #2c3337;
+      font-size: 16px;
       font-weight: 300;
       margin-bottom: 0.4em; }
   .c-card-stock .c-title_link {
     margin: 0; }
+  .c-card-stock .c-button {
+    background: #cdecff;
+    color: #094665;
+    text-transform: unset;
+    padding: 14px 18px;
+    font-size: 16px;
+  }
+  .c-card-stock .c-button span {
+    position: relative;
+    top: 1.5px;
+    margin-left: 2px;
+  }
+  .c-card-stock .c-button:hover {
+    background: #964383;
+    color: #fff;
+  }
   .c-card-stock_more {
     float: left; }
     .c-card-stock_more-title {
@@ -689,18 +660,22 @@ input[type="checkbox"]:checked + label::before {
 .c-btn-back {
   display: inline-block;
   position: relative;
-  padding-left: 36px;
-  color: #4B4B4B;
-  font-size: 0.875em;
-  font-weight: 500; }
-  .c-btn-back::after {
-    content: '';
-    position: absolute;
-    top: -6px;
-    left: 0;
-    width: 27px;
-    height: 27px;
-    background: url("../img/icon--btn-back.png") 0 0 no-repeat; }
+  background: #cdecff;
+  color: #094665;
+  text-transform: unset;
+  padding: 14px 18px;
+  font-size: 16px;
+  border-radius: 30px;
+ }
+.c-btn-back:hover {
+  background: #964383;
+  color: #fff;
+}
+.c-btn-back .c-button span {
+  position: relative;
+  top: 1.5px;
+  margin-left: 2px;
+}
 
 .l-map {
   width: 100%;
@@ -840,14 +815,13 @@ html {
   clear: both; }
 
 .contact_body {
-  background-color: #fff; }
+  background-color: #f4fbff; }
 
 .contact_title {
-  color: #2B2A29;
-  font-family: "Stem";
-  font-size: 1.25em;
-  font-weight: 700;
-  text-transform: uppercase; }
+  color: #094665;
+  font-size: 18px;
+  font-weight: 500;
+  text-transform: capitalize; }
 
 .contact-title_h3 {
   color: #2B2A29;
@@ -876,19 +850,25 @@ html {
 
 .contact_text {
   display: inline-block;
-  margin-left: 30px;
-  color: #2B2A29;
-  font-size: 14px;
-  font-family: "Roboto";
-  font-weight: 400; }
+  margin-left: 50px;
+  color: #2c3337;
+  font-size: 16px;
+  font-weight: 300; }
   .contact_text b {
     display: inline-block; }
-
+.contact-body_item {
+  background: #dcf1ff;
+  padding: 10px 20px;
+}
+.contact-item_link {
+  color: #2c3337;
+  border-bottom: 1px dotted #2c3337;
+}
 .icon {
   display: inline-block;
   vertical-align: top;
-  width: 17px;
-  height: 20px;
+  width: 36px;
+  height: 36px;
   background-position: 0 0;
   background-repeat: no-repeat;
   position: absolute;
@@ -906,6 +886,12 @@ html {
 
 .icon-time {
   background-image: url("../img/icon-time.png"); }
+
+.icon-route {
+  background-image: url("../img/route.png"); }
+
+.icon-clock {
+  background-image: url("../img/clock.png"); }
 
 .icon-phone-yellow {
   width: 10px;
@@ -1139,6 +1125,10 @@ html {
     -webkit-transform: translateX(-50%);
         -ms-transform: translateX(-50%);
             transform: translateX(-50%); }
+  .application .c-button {
+    padding: 12px 18px;
+    font-size: 12px;
+  }
 
 /*workers*/
 .workers {
@@ -1428,7 +1418,13 @@ html {
     text-transform: uppercase; }
   .popup-form_item {
     margin-bottom: 14px; }
-
+.popup .checkbox {
+  margin-bottom: 20px;
+}
+.form-group .checkbox a {
+  color: #4f5254;
+  border-bottom: 1px dotted #4f5254;
+}
 .popup-sent {
   display: none;
   font-family: "Roboto";
@@ -1511,7 +1507,7 @@ html {
   margin-left: auto;
   margin-right: auto;
   width: 100%;
-  background-color: #ebf5f7;
+  background-color: #f4fbff;
   padding: 0 10px;
   padding-bottom: 5px; }
   .header::after {
@@ -1574,7 +1570,8 @@ html {
       font-size: 16px;
       font-weight: 400;
       text-transform: uppercase; }
-      .header-menu_link:hover {
+      .header-menu_link:hover,
+      .header-menu_link.active {
         color: #fff;
         background: #a85094;
         border-radius: 20px;
@@ -1677,7 +1674,8 @@ html {
 .footer-bottom_block {
   padding: 8px 0px 0px 0px;
 }
-.footer-bottom_block p {
+.footer-bottom_block p,
+.footer-bottom_block a {
   color: #656c70;
 }
 .footer-contact_item {
@@ -1739,6 +1737,60 @@ html {
   content: '';
   display: block;
   clear: both; }
+
+
+/**
+  pagination
+**/
+ul.pagination {
+  list-style: none;
+}
+.pagination li {
+  display: inline-block;
+  margin-right: 10px;
+}
+ul.pagination {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+ul.pagination:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+ul.pagination li {
+  float: left;
+  margin-left: -1px;
+}
+ul.pagination li:first-child {
+  margin-left: 0;
+}
+ul.pagination li a,
+ul.pagination li span {
+  display: block;
+  padding: 15px 18px;
+  text-decoration: none;
+  font-size: 14px;
+  background: #dcf1ff;
+  color: #094665;
+  border-radius: 30px;
+}
+ul.pagination li a:hover,
+ul.pagination .active span {
+  color: #ffffff;
+  background: #964383;
+}
+ul.pagination .additional a,
+ul.pagination .additional span {
+  background: transparent;
+}
+ul.pagination .additional a:hover,
+ul.pagination .additional span:hover {
+  color: #094665;
+  background: transparent;
+}
 
 /**
  * 
@@ -1869,6 +1921,9 @@ html {
 }
 .text-right {
   text-align: right;
+}
+.text-center {
+  text-align: center;
 }
 .col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
   position: relative;
@@ -2693,7 +2748,7 @@ html {
 
 @media (min-width: 768px) {
   .container, .header {
-    width: 760px; } }
+    width: 900px; } }
 
 @media (min-width: 992px) {
   .container, .header {
@@ -2833,6 +2888,9 @@ html {
     text-align: center;
     float: left;
   } 
+  .c-title{
+    margin-top: 20px;
+  } 
   }
 
 @media (max-width: 700px) and (min-width: 640px) {
@@ -2853,7 +2911,8 @@ html {
   .application_item {
     width: 100%;
     float: none;
-    margin-bottom: 8px; } }
+    margin-bottom: 8px; }
+}
 
 @media (max-width: 640px) {
   .smk-layout {
@@ -3065,6 +3124,12 @@ html {
     font-size: 1.2em; }
   .home-slider .slick-prev, .home-slider .slick-next {
     top: 25%;
+  }
+  ul.pagination li a, 
+  ul.pagination li span {
+    padding: 7px 10px;
+    text-decoration: none;
+    font-size: 12px;
   }
   }
 
