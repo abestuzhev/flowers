@@ -10,16 +10,14 @@
 	/*margin-right: 30px;*/
 	margin-bottom: 30px;
 	color: #8D8D8D;
-	font-family: "Stem";
 	font-size: 14px;
-	font-weight: 700;
 	text-transform: uppercase;
+    font-family: 'Neo Sans Pro';
 }
 
 .c-tabs__link.is-active {
 	padding: 14px 11px;
 	/*padding: 1rem 1.5rem;*/
-	font-family: "Stem";
 	font-size: 14px;
 	font-weight: 700;
 	text-transform: uppercase;
