@@ -237,7 +237,6 @@ input[type="checkbox"]:checked + label::before {
     width: 210px;
     /*background-color: #fff;*/
     border-radius: 2px;
-    -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.08), inset 0 0 0 2px transparent;
     /*box-shadow: 0 0 5px rgba(0, 0, 0, 0.08), inset 0 0 0 2px transparent;*/
     position: relative;
     outline: 2px solid transparent;
@@ -393,6 +392,7 @@ input[type="checkbox"]:checked + label::before {
 
 .c-card-object--line .c-card-object {
     width: 100%;
+    margin: 0;
 }
 
 .c-card-object--line .c-card-object:hover {
@@ -448,6 +448,7 @@ input[type="checkbox"]:checked + label::before {
 .object-map__title {
     font-size: 14px;
     font-weight: 600;
+    padding: 0 10px;
     /*margin-bottom: 10px;*/
 }
 
@@ -1060,7 +1061,7 @@ html {
 .smk-layout {
     min-height: 100%;
     position: relative;
-    padding-top: 120px;
+    /*padding-top: 120px;*/
     padding-bottom: 317px;
 }
 
@@ -1257,7 +1258,7 @@ html {
 }
 
 .slick-next {
-    background: url("../img/home-slider-arrow-right.png") 0 0 no-repeat;
+    background: url("../img/home-slider-arrow-right.png") 1px 0 no-repeat;
     right: 346px;
 }
 
@@ -1328,8 +1329,8 @@ html {
 }
 
 .stock-slider .slick-next {
-    background: url(../img/home-slider-arrow-right.png) 0 0 no-repeat;
-    right: -2px;
+    background: url(../img/home-slider-arrow-right.png) 1px 0 no-repeat;
+    right: 0;
 }
 
 .stock-slider .slider_item {
@@ -1517,6 +1518,7 @@ html {
 }
 
 .floor-btn {
+    display: inline-block;
     background-color: #cdecff;
     color: #094665;
     border-radius: 50px;
@@ -1545,7 +1547,7 @@ html {
     background-color: #F3F4F7;
     /*padding: 30px 8px 11px;*/
     position: relative;
-    width: 23%;
+    width: 207px;
     margin: 1%;
 }
 
@@ -2051,14 +2053,14 @@ html {
 }
 
 .l-header {
-    position: absolute;
+    /*position: absolute;*/
     z-index: 99;
-    top: 20px;
+    /*top: 20px;*/
     width: 100%;
     left: 50%;
-    -webkit-transform: translateX(-50%);
-    -ms-transform: translateX(-50%);
-    transform: translateX(-50%);
+    /*-webkit-transform: translateX(-50%);*/
+    /*-ms-transform: translateX(-50%);*/
+    /*transform: translateX(-50%);*/
 }
 
 .header {
@@ -2167,15 +2169,15 @@ html {
     vertical-align: top;
     display: none;
     padding: .5em 1.1em;
-    background-color: #fbbb00;
-    color: #000;
+    background-color: #964383;
+    color: #fff;
     font-weight: bold;
     border-radius: 2px;
     min-height: 2.125em;
 }
 
 .header-menu_mobile:hover {
-    background-color: #ffe400;
+    background-color: #8c4379;
 }
 
 .header-menu_mobile--phone::after {
@@ -4450,7 +4452,7 @@ ul.pagination .additional span:hover {
     }
 
     .smk-layout {
-        padding-top: 120px;
+        /*padding-top: 120px;*/
         padding-bottom: 352px;
     }
 
@@ -4487,12 +4489,12 @@ ul.pagination .additional span:hover {
         text-align: left;
     }
 
-    .footer-main_link {
-        font-size: 28px;
-    }
+    /*.footer-main_link {*/
+        /*font-size: 28px;*/
+    /*}*/
 
     .footer-main_link__text a {
-        font-size: 18px;
+        font-size: 14px;
     }
 
     .footer .footer-contact_item.tel,
@@ -4525,9 +4527,26 @@ ul.pagination .additional span:hover {
     }
 }
 
+@media (max-width: 768px) {
+    .c-card-estate__img,
+    .c-card-estate__body,
+    .c-card-estate__about,
+    .c-card-estate__lay-out {
+        padding: 0;
+    }
+
+    .c-card-estate {
+        padding: 14px;
+    }
+
+    .c-tabs-menu {
+        margin-bottom: 10px;
+    }
+}
+
 @media (max-width: 760px) {
     .smk-layout {
-        padding-top: 22%;
+        /*padding-top: 22%;*/
     }
 
     .workers-page .c-card-workers,
@@ -4559,6 +4578,10 @@ ul.pagination .additional span:hover {
 @media (max-width: 730px) {
     .search-result__item {
         width: 50%;
+    }
+
+    .stock.mb-12 {
+        margin-bottom: 0px;
     }
 }
 
@@ -4594,7 +4617,7 @@ ul.pagination .additional span:hover {
 
 @media (max-width: 640px) {
     .smk-layout {
-        padding-top: 13%;
+        /*padding-top: 13%;*/
     }
 
     .header-contact {
@@ -4682,7 +4705,8 @@ ul.pagination .additional span:hover {
     }
 
     .search-object {
-        display: none;
+        /*display: none;*/
+        padding: 0 10px;
     }
 
     .search-result {
@@ -4699,12 +4723,20 @@ ul.pagination .additional span:hover {
 @media (max-width: 560px) {
     .c-card-object {
         margin-right: 0;
-        -webkit-box-shadow: 0 0 5px transparent, inset 0 0 0 2px transparent;
-        box-shadow: 0 0 5px transparent, inset 0 0 0 2px transparent;
+        /*-webkit-box-shadow: 0 0 5px transparent, inset 0 0 0 2px transparent;*/
+        /*box-shadow: 0 0 5px transparent, inset 0 0 0 2px transparent;*/
+    }
+
+    .c-title {
+        margin: 0;
+    }
+
+    .pagination li {
+        margin-right: 4px;
     }
 
     .c-card-stock_img {
-        width: 220px;
+        width: 100%;
         padding: 0;
         margin-bottom: 14px;
     }
@@ -4743,7 +4775,7 @@ ul.pagination .additional span:hover {
     }
 
     .home-slider .slick-next {
-        right: -2px;
+        right: 0;
     }
 
     .home-slider .slick-prev, .home-slider .slick-next {
@@ -4780,23 +4812,52 @@ ul.pagination .additional span:hover {
         float: right !important;
     }
 
-    .footer-main_link {
-        font-size: 30px;
-    }
+    /*.footer-main_link {*/
+        /*font-size: 30px;*/
+    /*}*/
 
-    .footer-main_link__text a {
-        font-size: 22px;
-    }
+    /*.footer-main_link__text a {*/
+        /*font-size: 22px;*/
+    /*}*/
 
     .footer .footer-contact_item.tel,
     .footer .footer-contact_item.popup_btn-call,
     .footer .footer-contact_item.popup_btn-mail {
-        font-size: 26px;
+        font-size: 16px;
     }
 
     .footer-bottom_block p {
         padding: 0px 10px;
         font-size: 16px;
+    }
+
+    .c-tabs-menu__item {
+        float: none;
+        display: block;
+        width: 100%;
+    }
+
+    .c-tabs-content {
+        padding: 0 10px;
+    }
+
+    .c-tabs-menu__item a::after {
+        content: '';
+        display: none;
+    }
+
+    .floor-nav-col {
+        width: 100%;
+        float: none;
+    }
+
+    .floor-nav-col:nth-child(2) {
+        text-align: left;
+        margin-top: 10px;
+    }
+
+    .floor-nav {
+        padding: 0 10px;
     }
 }
 
@@ -4836,7 +4897,7 @@ ul.pagination .additional span:hover {
     }
 
     .home-slider .slick-next {
-        right: -2px;
+        /*right: -2px;*/
     }
 
     .home-slider .slick-prev, .home-slider .slick-next {
@@ -4937,7 +4998,7 @@ ul.pagination .additional span:hover {
     }
 
     .smk-layout {
-        padding-top: 11%;
+        /*padding-top: 11%;*/
     }
 
     .home-slider .slick-prev, .home-slider .slick-next {

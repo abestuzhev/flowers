@@ -269,6 +269,7 @@ $(document).ready(function() {
         );
     });
 
+    /*
   $(window).scroll(function(){
       var bo = $("body").scrollTop();
       // $('#hid').text(bo);
@@ -284,7 +285,7 @@ $(document).ready(function() {
         });
       };
   })
-
+*/
 
     $('.SlectBox').SumoSelect({
         placeholder: 'This is a placeholder',
