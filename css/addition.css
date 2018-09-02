@@ -1,0 +1,139 @@
+.building-list {
+    color: #2b2a29;
+    font-size: 16px;
+    padding: 0 13px;
+}
+
+.building-list__item {
+    border-bottom: 6px dotted #ebf5f7;
+}
+
+.building-card {
+    padding: 10px 0;
+}
+
+.building-card__header {
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: all .1s ease-in-out;
+}
+
+.building-card__header.active .icon-arrow-building {
+    transform: rotate(-180deg);
+    transition: all .1s ease-in-out;
+}
+
+.building-card__header::after {
+    content: '';
+    clear: both;
+    display: table;
+}
+
+.building-card__title {
+    margin-right: 15px;
+    display: inline-block;
+    font-weight: 700;
+    vertical-align: top;
+}
+
+.building-card__count-photo {
+    display: inline-block;
+    font-size: 13px;
+    vertical-align: top;
+    margin-right: 7px;
+}
+
+.building-card__body::after {
+    content: '';
+    clear: both;
+    display: table;
+}
+
+.building-slider {
+    height: 110px;
+}
+
+.building-slider .slick-track.transition {
+    transition: transform 500ms ease;
+}
+
+.building-slider .slick-prev,
+.building-slider .slick-next {
+    background-color: transparent;
+    border: 10px solid transparent;
+    width: 18px;
+    height: 18px;
+}
+
+.building-slider .slick-prev:hover {
+    border-right-color: #fbc455;
+}
+
+.building-slider .slick-next:hover {
+    background-color: transparent;
+    border-left-color: #fbc455;
+}
+
+.building-slider .slick-next {
+    right: -25px;
+    border-left: 8px solid #8d8d8d;
+}
+
+.building-slider .slick-prev {
+    left: -25px;
+    border-right: 8px solid #8d8d8d;
+
+}
+
+.building-slider .slick-prev:before,
+.building-slider .slick-next:before {
+    content: '';
+    display: none;
+}
+
+.building-slider__item {
+    float: left;
+    /*width: 145px;*/
+    width: 33.3333%;
+    height: 200px;
+    padding: 10px 5px;
+}
+.building-slider__item img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+.icon-arrow-building {
+    transition: all .1s ease-in-out;
+    display: inline-block;
+    width: 12px;
+    height: 11px;
+    background: url(../img/arrow-building.png) 0 0 no-repeat;
+}
+
+@media screen and (max-width: 640px) {
+    .building-slider,
+    .building-slider__item {
+        height: 190px;
+    }
+}
+
+@media screen and (max-width: 992px) and (min-width: 640px){
+    .c-tabs__link,
+    .c-tabs__link.is-active {
+        text-align: center;
+        max-width: 146px;
+        font-size: 13px;
+        padding: 14px 5px;
+    }
+}
+
+@media screen and (max-width: 730px) and (min-width: 640px){
+    .c-tabs__link,
+    .c-tabs__link.is-active {
+        max-width: 120px;
+        font-size: 12px;
+    }
+}

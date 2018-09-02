@@ -304,9 +304,26 @@ $(document).ready(function() {
         $(this).parent().addClass("current");
         $(this).parent().siblings().removeClass("current");
         var tab = $(this).attr("href");
-        $(this).parents('.c-tabs-menu').siblings('.c-tabs-content').find(".c-tabs-content__item").not(tab).css("display", "none");
+        $(this).parents('.c-tabs-menu').siblings('.c-tabs-content').find(".c-tabs-content__item").not(tab, '.c-tabs-content .c-tabs-content' + tab).css("display", "none");
         $(tab).fadeIn();
     });
+
+    /*простые табы*/
+    $(document).on('click', '.c-tabs-v2-menu a', function(event) {
+        event.preventDefault();
+        $(this).parent().addClass("current");
+        $(this).parent().siblings().removeClass("current");
+        var tab = $(this).attr("href");
+        $(this).parents('.c-tabs-v2-menu').siblings('.c-tabs-v2-content').find(".c-tabs-v2-content__item").not(tab, '.c-tabs-content .c-tabs-content' + tab).css("display", "none");
+        $(tab).fadeIn();
+    });
+
+    $('.building-card__body').slideUp(300);
+    $('.building-card__header').on('click', function(){
+        $(this).siblings('.building-card__body').slideToggle(300);
+        $(this).toggleClass('active');
+    });
+
 
 });
 
