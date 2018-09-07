@@ -2587,6 +2587,9 @@ ul.pagination .additional span:hover {
     content: '';
     /*border: none;*/
 }
+.c-tabs-content {
+    padding: 10px;
+}
 
 .c-tabs-content__item {
     display: none;
