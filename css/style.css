@@ -5202,3 +5202,81 @@ ul.pagination .additional span:hover {
   .c-ol-list li ul li:before,
   .c-ol-list > ul li:before {
     content: ''; }
+
+.schedule {
+
+}
+
+.schedule-title {
+    margin-bottom: 30px;
+}
+
+.schedule-table {
+
+}
+
+.schedule-table__header {
+
+}
+
+.schedule-table__body {
+    width: 100%;
+}
+.schedule-table__body::after {
+    content: '';
+    clear: both;
+    display: table;
+}
+
+.schedule-table__line {
+    width: 100%;
+    border: 1px solid #ccc;
+    display: table;
+}
+
+.schedule-table__stage {
+    display: table-cell;
+    float: left;
+    width: 25%;
+    border: 1px solid #ccc;
+    min-height: 40px;
+}
+
+.schedule-table__items {
+    display: table-cell;
+    float: left;
+    width: 30%;
+    border: 1px solid #ccc;
+    min-height: 40px;
+}
+
+.schedule-table__item {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+.schedule-table__item:last-child {
+    border: none;
+}
+.schedule-table__month {
+    display: table-cell;
+    float: left;
+    width: 15%;
+    /*border: 1px solid #ccc;*/
+    min-height: 40px;
+}
+
+.schedule-table__month::after {
+    content: '';
+    clear: both;
+    display: table;
+}
+
+.schedule-table__day {
+    float: left;
+    width: 25%;
+    min-height: 40px;
+    border: 1px solid #ccc;
+}
+.schedule-table__day.current {
+    background-color: #a7b447;
+}
