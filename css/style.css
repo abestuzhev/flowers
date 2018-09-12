@@ -5239,10 +5239,15 @@ ul.pagination .additional span:hover {
 
 .schedule-table__header .schedule-table__month-line{
     height: auto;
+    border-color: #dde4e6;
 }
 
 .schedule-table__header .schedule-table__day {
     border: none;
+}
+
+.schedule-table__header .schedule-table__month:last-child .schedule-table__month-line:last-child {
+    border-right: 1px solid #dde4e6;
 }
 
 .schedule-table__header-title {
@@ -5274,16 +5279,16 @@ ul.pagination .additional span:hover {
 }
 
 .schedule-table__preparatory .schedule-table__stage {
-    width: calc(41% + 2px);
+    width: calc(32% - 7px);
 }
 
 .schedule-table__preparatory .schedule-table-box {
     /*width: 59%;*/
-    width: calc(59% - 2px);
+    width: calc(68% + 7px);
 }
 
 .schedule-table__preparatory .schedule-table__month {
-    width: calc(33% + 2px);
+    width: 20%;
 }
 
 .schedule-table__line {
@@ -5309,7 +5314,7 @@ ul.pagination .additional span:hover {
 }
 
 .schedule-table__stage {
-    width: 16%;
+    width: 12%;
     /*border: 1px solid #ccc;*/
     height: 100%;
     padding: 10px;
@@ -5317,7 +5322,7 @@ ul.pagination .additional span:hover {
 
 
 .schedule-table-box {
-    width: 84%;
+    width: 88%;
 }
 
 .schedule-table-box__line {
@@ -5348,7 +5353,7 @@ ul.pagination .additional span:hover {
 }
 
 .schedule-table__items {
-    width: 30%;
+    width: 22%;
     border-left: 1px solid #dde4e6;
     min-height: 40px;
 }
@@ -5364,7 +5369,7 @@ ul.pagination .additional span:hover {
 .schedule-table__month {
     /*display: table-cell;*/
     /*float: left;*/
-    width: 23.3%;
+    width: 15.6%;
     /*border: 1px solid #ccc;*/
     min-height: 40px;
 }
@@ -5401,7 +5406,13 @@ ul.pagination .additional span:hover {
 }
 
 .schedule-table__month-line:first-child {
-    border-left: 2px solid #63767c;
+    border-left: 1px solid #63767c;
+}
+
+
+
+.schedule-table__month:last-child .schedule-table__month-line:last-child {
+    border-right: 3px solid #63767c;
 }
 
 .schedule-table__month-line::after {
