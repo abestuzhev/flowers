@@ -324,6 +324,17 @@ $(document).ready(function() {
         $(this).toggleClass('active');
     });
 
+    
+    /*модальное окно в карте инфраструктура*/
+    $('.infrastructure-object img').on('click', function(){
+        $('.infrastructure-object').find('.object-popup').addClass('is-show');
+    });
+
+    $('.object-popup__close').on('click', function(e){
+        e.preventDefault();
+        console.log('click');
+        $(this).parents('.object-popup').removeClass('is-show');
+    });
 
 });
 
