@@ -10,6 +10,8 @@
     <link rel="stylesheet" type="text/css" href="bower_components/slick-carousel/slick/slick-theme.css"/>
     <link rel="stylesheet" type="text/css" href="css/addition.css"/>
     <link rel="stylesheet" href="css/style.css">
+
+    
 </head>
 
 <body>
@@ -325,6 +327,7 @@
                                             <!--<div class="infrastructure-map" style="background-image:url(./img/infrastructure-map-2.jpg);">-->
 
                                             <!--</div>-->
+                                            <div id="map_inf"></div>
                                         </div>
                                         <div id="infrastructure3" class="c-tabs-v2-content__item">
                                             <ul class="infrastructure-img__grid">
@@ -1138,9 +1141,53 @@
 <script src="js/lg-thumbnail.min.js"></script>
 <script src="bower_components/jquery-mask-plugin/dist/jquery.mask.js"></script>
 <script src="js/jquery.sumoselect.js"></script>
-<script async="" src="https://api-maps.yandex.ru/2.1/?lang=ru_RU"></script>
-<script src="js/map.js"></script>
+<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+    <script src="js/map/map.js"></script>
 <script src="js/main.js"></script>
+
+<!-- <script>
+ymaps.ready(init);
+
+function init () {
+    var myMap = new ymaps.Map('map_inf', {
+            center: [55.95, 32.44],
+            zoom: 2
+        }),
+
+        store = new ymaps.Placemark([55.85, 60.64], {
+            balloonContent: 'Маленькая иконка'
+        }, {
+            iconLayout: 'default#image',
+            iconImageHref: 'images/icon-1.png',
+            iconImageSize: [41, 41],
+            iconImageOffset: [-15, -27],
+        }),
+
+        sport = new ymaps.Placemark([55.85, 32.64], {
+            balloonContent: 'Средняя иконка'
+        }, {
+            iconLayout: 'default#image',
+            iconImageClipRect: [[34,0], [62, 46]],
+            iconImageHref: 'images/sprite.png',
+            iconImageSize: [26, 46],
+            iconImageOffset: [-26, -46]
+        }),
+
+        hospital = new ymaps.Placemark([55.85, 1.0], {
+            balloonContent: 'Большая иконка'
+        }, {
+            iconLayout: 'default#image',
+            iconImageClipRect: [[69,0], [97, 46]],
+            iconImageHref: 'images/sprite.png',
+            iconImageSize: [35, 63],
+            iconImageOffset: [-35, -63]
+        });
+
+    myMap.geoObjects.add(store)
+        .add(sport)
+        .add(hospital);
+}
+</script> -->
 
 
 </body>

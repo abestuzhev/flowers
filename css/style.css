@@ -1113,6 +1113,10 @@ html {
     padding-right: 80px;
 }
 
+#map_inf {
+    height: 400px;
+}
+
 .infrastructure-map {
     height: 720px;
     -webkit-background-size: cover;
