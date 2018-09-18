@@ -41,9 +41,67 @@
     font-style: italic;
 }
 
+@font-face {
+    font-family: 'Stem';
+    src: url('../fonts/Stem-Regular.eot');
+    src: url(../fonts/Stem-Regular.eot?#iefix) format("embedded-opentype"),
+    url(../fonts/Stem-Regular.woff) format("woff"),
+    url(../fonts/Stem-Regular.ttf) format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Stem';
+    src: url('../fonts/Stem-Bold.eot');
+    src: url(../fonts/Stem-Bold.eot?#iefix) format("embedded-opentype"),
+    url(../fonts/Stem-Bold.woff) format("woff"),
+    url(../fonts/Stem-Bold.ttf) format("truetype");
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'MagistralC';
+    src: url('../fonts/MagistralC-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/MagistralC-Bold.otf')  format('opentype'),
+    url('../fonts/MagistralC-Bold.woff') format('woff'),
+    url('../fonts/MagistralC-Bold.ttf')  format('truetype'),
+    url('../fonts/MagistralC-Bold.svg#MagistralC-Bold') format('svg');
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'MagistralC';
+    src: url('../fonts/MagistralCond-Book.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/MagistralCond-Book.otf')  format('opentype'),
+    url('../fonts/MagistralCond-Book.woff') format('woff'),
+    url('../fonts/MagistralCond-Book.ttf')  format('truetype'),
+    url('../fonts/MagistralCond-Book.svg#MagistralCond-Book') format('svg');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MagistralC';
+    src: url('../fonts/MagistralC.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/MagistralC.otf')  format('opentype'),
+    url('../fonts/MagistralC.woff') format('woff'),
+    url('../fonts/MagistralC.ttf')  format('truetype'),
+    url('../fonts/MagistralC.svg#MagistralC') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+
 html {
     height: 100%;
-    font-family: 'Neo Sans Pro';
+    /*font-family: 'Neo Sans Pro';*/
+    font-family: 'Stem';
+    /*font-family: 'MagistralC';*/
 }
 
 body {
