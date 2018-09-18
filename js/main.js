@@ -327,7 +327,8 @@ $(document).ready(function() {
     
     /*модальное окно в карте инфраструктура*/
     $('.infrastructure-object img').on('click', function(){
-        $('.infrastructure-object').find('.object-popup').addClass('is-show');
+        $('.infrastructure-object').find('.object-popup').removeClass('is-show');
+        $(this).parents('.infrastructure-object').find('.object-popup').addClass('is-show');
     });
 
     $('.object-popup__close').on('click', function(e){
