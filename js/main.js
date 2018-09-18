@@ -299,14 +299,14 @@ $(document).ready(function() {
 
 
     /*простые табы*/
-    $(document).on('click', '.c-tabs-menu a', function(event) {
-        event.preventDefault();
-        $(this).parent().addClass("current");
-        $(this).parent().siblings().removeClass("current");
-        var tab = $(this).attr("href");
-        $(this).parents('.c-tabs-menu').siblings('.c-tabs-content').find(".c-tabs-content__item").not(tab, '.c-tabs-content .c-tabs-content' + tab).css("display", "none");
-        $(tab).fadeIn();
-    });
+    // $(document).on('click', '.c-tabs-menu a', function(event) {
+    //     event.preventDefault();
+    //     $(this).parent().addClass("current");
+    //     $(this).parent().siblings().removeClass("current");
+    //     var tab = $(this).attr("href");
+    //     $(this).parents('.c-tabs-menu').siblings('.c-tabs-content').find(".c-tabs-content__item").not(tab, '.c-tabs-content .c-tabs-content' + tab).css("display", "none");
+    //     $(tab).fadeIn();
+    // });
 
     /*простые табы*/
     $(document).on('click', '.c-tabs-v2-menu a', function(event) {
